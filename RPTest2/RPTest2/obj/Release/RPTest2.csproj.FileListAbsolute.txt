@@ -1,8 +1,0 @@
-C:\Users\asuch\source\repos\RPTest2\RPTest2\bin\Release\RPTest2.exe.config
-C:\Users\asuch\source\repos\RPTest2\RPTest2\bin\Release\RPTest2.exe
-C:\Users\asuch\source\repos\RPTest2\RPTest2\bin\Release\RPTest2.pdb
-C:\Users\asuch\source\repos\RPTest2\RPTest2\obj\Release\RPTest2.Form1.resources
-C:\Users\asuch\source\repos\RPTest2\RPTest2\obj\Release\RPTest2.Properties.Resources.resources
-C:\Users\asuch\source\repos\RPTest2\RPTest2\obj\Release\RPTest2.csproj.GenerateResource.cache
-C:\Users\asuch\source\repos\RPTest2\RPTest2\obj\Release\RPTest2.exe
-C:\Users\asuch\source\repos\RPTest2\RPTest2\obj\Release\RPTest2.pdb
