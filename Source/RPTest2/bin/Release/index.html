@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    </head>
+    <body>
+    
+    <style>
+        body {
+            background-image: url('background.png');
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: white;
+        }    
+        a {
+            color: yellow;
+        }
+        
+        div {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+        h1 {
+            color: red;
+            text-align: center;
+            text-shadow: 3px 2px black;
+            font-size: 30px;
+        }
+        
+        .fp-container {
+                background: url(border-left.png) repeat-y, url(border-right.png) repeat-y, url(background.png) repeat;
+                background-position: 0 43px, right 43px;
+                margin: 20px auto 0 auto;
+                max-width: 816px;
+                min-width: 338px;
+                position: relative;
+                margin: auto;
+        }
+        
+        .fp-border-top {
+                height: 43px;
+                background-image: url(border-top-left-edge.png), 
+                url(border-badge.png), url(border-top-right-edge.png);
+                background-repeat: no-repeat;
+                background-position-x: 0, 50%, 99.95%;
+        }
+        
+        .fp-border-bottom {
+        background: url(border-bottom-left-edge.png), 
+        url(border-badge.png), url(border-bottom-right-edge.png), #000;
+        background-position: 0 bottom, 50% bottom, 99.95% bottom;
+        background-repeat: no-repeat;
+        bottom: 0;
+        height: 77px;
+        }
+        .button {
+            align-items: center;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            text-decoration: none;
+            text-shadow: 2px 2px 0 black;
+            
+        }
+        .fp-big-button {
+            background: url(play-button.png);
+            color: yellow;
+            font-size: 30px;
+            height: 146px;
+            left: 25%;
+            width: 198px;
+            
+        }
+        .fp-big-button:hover{
+            filter: brightness(80%);
+        }
+        </style>
+        <ln><br></ln>
+        <img src='RS%20Logo.png' class='center'>
+        
+        <p align = 'center'>The first offline Runescape Classic Encyclopedia!</p>
+        <div class = fp-border-top></div>
+        <div class = fp-container>
+            
+            
+            <a class="button fp-big-button" href="questsfront.html">Quests</a>
+            <ln><br><br><br><br><br><br><br><br><br></ln>
+            
+            <a class="button fp-big-button" href="skillshead.html">Skills</a>
+            <ln><br><br><br><br><br><br><br><br><br></ln>
+            
+            <a class="button fp-big-button" href="bestiaryhead.html">Bestiary</a>
+            <ln><br><br><br><br><br><br><br></ln>
+        </div>
+        <div class = fp-border-bottom></div>
+    
+        <p align='center'><a href=ack.html>Acknowledgements</a></p>
+    </body>
+</html>

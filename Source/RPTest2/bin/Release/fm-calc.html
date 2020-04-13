@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <link rel="stylesheet" type="text/css" href="contentstyle.css">
+    <script language="JavaScript">
+
+function expCalc()
+{
+ num1=parseInt(document.frmadd.txt1.value);
+ num3=num1*1.75+25;
+ document.frmadd.txt3.value=num3;
+}
+</script>
+    </head>
+    <body>
+        <ln><br></ln>
+        <img src='RS%20Logo.png' class='center'>
+        <ln><br><br></ln>
+        <div class='scrolltop'></div>
+        <div class='scroll'>
+            <br>
+            <h1>Firemaking Calculator</h1>
+            <div>
+            <img class=center src=skills/Fire.gif>
+            </div>
+            <div>
+            <p align=center>
+                The firemaking skill is one of the easier skills to grasp in Runescape Classic, as it utilizes only one type of resource. <br>
+                <br>
+                By grabbing an axe and a tinderbox and setting yourself up beside a good amount of trees, you will have everything you need to reach your desired firemaking level goal.
+                <br>
+                <br>
+                To see how much experience you will gain burning logs at each level, use the handy calculator below:
+                <br>
+                <br>
+                </p>
+                <div style='border: 1px dotted black'>
+                        <form name="frmadd" align=center>
+
+ Current Level<br><input type ="text" name="txt1" ><br>
+ Experience Per Log<br><input type ="text" name="txt3" disabled><br>
+ <br>
+ <input type="button" value="Calculate!" onClick="expCalc()">
+</form>
+                </div>
+                <br>
+                 <a class='littlebutton' href=skillshead.html>Back</a><br><br><br><br><br>
+                 <a class='littlebutton' href=index.html>Home</a>
+                <br><br><br><br><br>
+            </div>
+
+        </div>
+    </body>
+</html>
