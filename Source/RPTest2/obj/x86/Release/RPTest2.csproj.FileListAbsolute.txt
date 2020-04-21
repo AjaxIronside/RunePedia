@@ -6,3 +6,4 @@ C:\Users\asuch\Documents\GitHub\RunePedia\Source\RPTest2\obj\x86\Release\RPTest2
 C:\Users\asuch\Documents\GitHub\RunePedia\Source\RPTest2\obj\x86\Release\RPTest2.csproj.GenerateResource.cache
 C:\Users\asuch\Documents\GitHub\RunePedia\Source\RPTest2\obj\x86\Release\RPTest2.exe
 C:\Users\asuch\Documents\GitHub\RunePedia\Source\RPTest2\obj\x86\Release\RPTest2.pdb
+C:\Users\asuch\Documents\GitHub\RunePedia\Source\RPTest2\obj\x86\Release\RPTest2.csprojAssemblyReference.cache

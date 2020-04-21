@@ -17,7 +17,7 @@ namespace RPTest2
         {
             InitializeComponent();
             string curDir = Directory.GetCurrentDirectory();
-            webBrowser1.Url = new Uri(String.Format("file:///{0}/index.html", curDir));
+            webBrowser1.Url = new Uri(String.Format("file:///{0}/html/index.html", curDir));
         }
 
         private void Form1_Load(object sender, EventArgs e)
