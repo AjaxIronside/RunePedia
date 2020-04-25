@@ -1,5 +1,5 @@
 # RunePedia
-![alt text](https://github.com/AjaxIronside/RunePedia/Release/html/RS%20Logo.png "Logo")
+![alt text](https://github.com/AjaxIronside/RunePedia/blob/master/Release/html/RS%20Logo.png?raw=true "Logo")
 An offline, custom-written Runescape Classic encyclopedia.
 
 At this point, it's serving as my final project for a Software Engineering course, but after I've submitted my work I will welcome contributors!
