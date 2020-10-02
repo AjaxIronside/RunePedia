@@ -1,0 +1,30 @@
+
+body {
+    background-color: black;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row.top {
+    height: 100px;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    height: 800px;
+    color: white;
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.middle {
+    width: 49%;
+    border: 2px solid orange;
+    
+}
